@@ -3,6 +3,7 @@
 /**
  * main -  prints _putchar.
  *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,5 +15,6 @@ int main(void)
 	{
 		_putchar(str[l]);
 	}
+	_putchar('\n');
 	return (0);
 }
