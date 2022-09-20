@@ -5,10 +5,11 @@
  * @s: input string.
  * Return: length of a string.
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
-	int i;
+	int count = 0;
 
-	for (i = 0; *s[i] != '/0'; i++)
-	return (i);
+	while (*(s + count) != '\0')
+		count++;
+	return (count);
 }
